@@ -3,9 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project 3</title>
+    <title>Document</title>
+    <!-- Daisy UI -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Sora Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ADLaM Display Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              accent: "#FFDC26",
+              primary: "#FFFFFF",
+              secondary: "#FFF9F4",
+              common: "#111111",
+            },
+            fontFamily: {
+              sora: ["Sora", "serif"],
+              ADLaM: ["ADLaM Display", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Icon Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
-    <h1>Hello World</h1>
+  <body class="font-sora text-red-500">
+    <header>
+      <!-- Navbar Section -->
+      <nav class="bg-secondary">
+        <div class="w-9/10 mx-auto">
+          <div class="navbar">
+            <div class="navbar-start">
+              <a><img src="c1-assets/logo-header.png" alt="" /></a>
+              <a class="btn btn-ghost text-[1.625rem] font-normal"
+                >Browses<span class="text-accent -ml-2 -mr-2">4</span>Pets</a
+              >
+            </div>
+            <div class="navbar-center hidden sm:flex">
+              <ul class="menu menu-horizontal px-1 text-base">
+                <li><a>Find a pet</a></li>
+                <li><a>Breeds</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-4">
+              <div><i class="fa-regular fa-bell text-2xl font-normal"></i></div>
+              <div><i class="fa-solid fa-magnifying-glass text-2xl"></i></div>
+              <a
+                class="btn border-2 border-accent px-8 py-3 text-xl font-normal bg-secondary"
+                >Login</a
+              >
+              <a class="btn px-8 py-3 text-xl font-normal bg-accent"
+                >Register</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Banner Section -->
+      <section>
+        <img class="border-2" src="c1-assets/cat-big.png" alt="" />
+      </section>
+    </header>
   </body>
 </html>
