@@ -59,10 +59,10 @@
   <body class="font-sora text-red-500">
     <header>
       <!-- Navbar Section -->
-      <nav class="bg-secondary">
+      <nav class="bg-secondary py-6">
         <div class="w-9/10 mx-auto">
-          <div class="navbar">
-            <div class="navbar-start">
+          <div class="flex justify-between">
+            <div class="flex">
               <a><img src="c1-assets/logo-header.png" alt="" /></a>
               <a class="btn btn-ghost text-[1.625rem] font-normal"
                 >Browses<span class="text-accent -ml-2 -mr-2">4</span>Pets</a
@@ -75,7 +75,7 @@
                 <li><a>Contact us</a></li>
               </ul>
             </div>
-            <div class="navbar-end gap-4">
+            <div class="flex items-center gap-4">
               <div><i class="fa-regular fa-bell text-2xl font-normal"></i></div>
               <div><i class="fa-solid fa-magnifying-glass text-2xl"></i></div>
               <a
@@ -90,8 +90,25 @@
         </div>
       </nav>
       <!-- Banner Section -->
-      <section>
-        <img class="border-2" src="c1-assets/cat-big.png" alt="" />
+      <section class="w-9/10 mx-auto relative my-20">
+        <div class="absolute flex flex-col gap-8">
+          <h3 class="text-[3.5rem] font-ADLaM">
+            Pamper Your Pet,<br />
+            Because They Deserve <br />
+            the Best
+          </h3>
+          <p class="text-xl">
+            Discover a world of treats, toys, and essentials handpicked for
+            <br />
+            your furry friends. Shop now and make tails wag with joy!
+          </p>
+          <div>
+            <a class="btn px-8 py-3 text-xl font-normal bg-accent"
+              >Find a pet</a
+            >
+          </div>
+        </div>
+        <img class="w-full border-2" src="c1-assets/cat-big.png" alt="" />
       </section>
     </header>
   </body>
