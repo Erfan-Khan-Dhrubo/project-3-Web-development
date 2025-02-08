@@ -26,3 +26,5 @@ To get a local copy up and running, follow these simple steps:
    ```bash
    git clone https://github.com/Erfan-Khan-Dhrubo/project-3-Web-development.git
    ```
+
+<img src="./web pic/laptop.png" alt="Screenshot 9" />
