@@ -27,4 +27,14 @@ To get a local copy up and running, follow these simple steps:
    git clone https://github.com/Erfan-Khan-Dhrubo/project-3-Web-development.git
    ```
 
-<img src="./web pic/laptop.png" alt="Screenshot 9" />
+## Design for Large Device
+
+ <img src="./web pic/laptop.png"/>
+
+---
+
+# Design for Small Device
+
+ <img src="./web pic/phone.png"/>
+
+---
