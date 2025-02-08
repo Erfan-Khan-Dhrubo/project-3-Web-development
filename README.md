@@ -35,6 +35,6 @@ To get a local copy up and running, follow these simple steps:
 
 # Design for Small Device
 
- <img src="./web pic/phone.png"/>
+ <img src="./web pic/phone.png" width="50%"/>
 
 ---
